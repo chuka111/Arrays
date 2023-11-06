@@ -1,5 +1,6 @@
 package ie.atu;
-
+import java.util.Scanner;
+import java.util.ArrayList;
 public class Arrays {
 
 
@@ -26,7 +27,9 @@ public class Arrays {
             System.out.println("Element at index " + i + " : " + anArray[i]);
         }
 
-
-
+        int indexValue = 0;
+        for(int value: anArray) {
+        System.out.println();
+        }
     }
 }
